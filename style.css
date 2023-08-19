@@ -5,15 +5,15 @@ html{
 }
 
 body{
-    background-color: #F4F2DE;
-    /* background-color: #FAF3F0; */
+    /* background-color: #F4F2DE; */
+    background-color: #FAF3F0;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'arial', serif;
 }
 
 .container{
@@ -26,7 +26,7 @@ body{
 /* navigation bar css */
 
 #navbar{
-    background-color: #FF6969;
+    background-color: #69d5ff;
     height: 80px;
     position: sticky;
     top: 0px;
@@ -56,7 +56,7 @@ body{
 
 .nav-link:hover{
     color: #FF6969;
-    background-color: #fff;
+    background-color: #374df4;
     border-radius: 5px 10px 5px 10px;
     transition: .1s ease-in-out;
 }
@@ -83,7 +83,7 @@ body{
 #book-info,th,td
 {
     border-collapse: collapse;
-    border: 2px solid #e7e6e7;
+    border: 2px solid #0e45dd;
 }
 
 th,td{
@@ -113,7 +113,7 @@ th,td{
 
 .page-title
 {
-    color: #FF6969;
+    color: #3b1bbd;
     font-size: 35px;
     text-align: center;
     margin: 10px 0px;
@@ -136,13 +136,13 @@ th,td{
 
 .form-input:focus
 {
-    border: 2px solid #FF6969;
+    border: 2px solid #12073b;
 }
 
 .form-btn
 {
     color: #ffffff;
-    background-color: #FF6969;
+    background-color: #4ba2f4;
     width: 100%;
     margin-top: 10px;
     padding: 10px;
@@ -155,5 +155,5 @@ th,td{
 
 .form-btn:hover
 {
-    background-color: #f55656;
+    background-color: #129ca8;
 }
